@@ -1,0 +1,25 @@
+﻿<Window x:Class="CeasarCipher.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CeasarCipher"
+        mc:Ignorable="d"
+        Title="CipherWindow" Height="400" Width="820">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        
+        <!-- Buttons-->
+        <Button Grid.Row="0" Grid.Column="0" FontSize="30" Click="Button_Click">Start</Button>
+    </Grid>
+</Window>
