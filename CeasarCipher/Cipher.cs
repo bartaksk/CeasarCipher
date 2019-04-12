@@ -8,5 +8,10 @@ namespace CeasarCipher
 {
     class Cipher
     {
+        public Cipher(long firstNum, long secondNum)
+        {
+            long aNum = firstNum;
+            long bNum = secondNum;
+        }
     }
 }
